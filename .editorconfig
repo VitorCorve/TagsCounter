@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0021: Использовать тело блока для конструкторов
+csharp_style_expression_bodied_constructors = true
