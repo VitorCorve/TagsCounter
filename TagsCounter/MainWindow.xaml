@@ -120,18 +120,6 @@
                      Maximum="{Binding ProgressBar.MaxValue}"
                      Value="{Binding ProgressBar.Value}"
                      Margin="10"/>
-                <Grid Grid.Row="1" Visibility="{Binding Performance.Statement}" Margin="5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="1.5*"/>
-                        <ColumnDefinition Width="0.8*"/>
-                        <ColumnDefinition Width="0.3*"/>
-                        <ColumnDefinition Width="0.6*"/>
-                        <ColumnDefinition Width="1.5*"/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="1" Text="Time spended:" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                    <TextBlock Grid.Column="2" Text="{Binding Performance.AmountOfTime}" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                    <TextBlock Grid.Column="3" Text="sec." Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-                </Grid>
             </StackPanel>
             <StackPanel VerticalAlignment="Center" Margin="5">
                 <Label Content="Type URL here..." HorizontalAlignment="Center" Foreground="White"/>
